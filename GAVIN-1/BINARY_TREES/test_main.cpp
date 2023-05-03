@@ -21,7 +21,8 @@ int main()
     temp2->right = temp6;
 
 
-    cout<<"inorder : "; inorder(root);   cout<<endl;
-    cout<<"preorder: "; preorder(root);  cout<<endl;
-    cout<<"postorder : ";  postorder(root); cout<<endl;
+    // cout<<"inorder : "; inorder(root);   cout<<endl;
+    // cout<<"preorder: "; preorder(root);  cout<<endl;
+    // cout<<"postorder : ";  postorder(root); cout<<endl;
+    levelorder(root);
 }

@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
+
+    // making of a binary tree
+    ///////////////////////////
     node *root = new node(1);
     node *temp1 = new node(2);
     node *temp2 = new node(3);
@@ -19,6 +22,7 @@ int main()
     node *temp6 = new node(7);
     temp2->left = temp5;
     temp2->right = temp6;
+    //////////////////////////
 
 
     // cout<<"inorder : "; inorder(root);   cout<<endl;

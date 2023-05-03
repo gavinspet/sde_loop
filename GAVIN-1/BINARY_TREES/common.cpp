@@ -2,6 +2,16 @@
 #include"common.h"
 using namespace std;
 
+
+// height of a binary tree
+int height(node * root)
+{
+    if(root == NULL)
+    return 0;
+
+    return (1+max(height(root->left),height(root->right)));
+}
+
 // inorder traversal of binary tree
 void inorder(node *root)
 {
@@ -52,7 +62,7 @@ void levelorder(node *root)
         {
             node* temp = q.front();
             q.pop();
-            
+
             cout<<temp->val<<" ";
 
             if(temp->left) q.push(temp->left);
@@ -61,3 +71,9 @@ void levelorder(node *root)
         cout<<endl;
     }
 }
+
+
+// iterative implementations
+void inorder_iterative(node *root);
+void preorder_iterative(node *root);
+void postorder_iterative(node *root);

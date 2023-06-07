@@ -12,22 +12,21 @@ class animals {
 public:
 
     // data members
-    int16_t *legs;
+    int16_t legs;
     FoodHabit foodHabit;
     string colour;
     
 
     // data method
     void setLegs(int16_t x) {
-        *legs = x;
+        legs = x;
     }
     void setColour(const string& s);
 
     // just a constructor
     animals()
     {
-        legs = new int16_t;
-        *legs = 0;
+        legs = 0;
         this->foodHabit = omnivore;
         this->colour = "nil";
     }
@@ -36,8 +35,7 @@ public:
     // parameterised constructor
      animals(int16_t x, FoodHabit y, string z)
     {
-        legs = new int16_t;
-        *legs = x;
+        legs = x;
         this->foodHabit = y;
         this->colour = z;
     }
@@ -45,11 +43,15 @@ public:
     // copy constructor
     animals(const animals &obj)
     {
-        legs = new int16_t;
-
-        *legs = 4;
+        legs = 4;
         foodHabit = obj.foodHabit;
         colour = obj.colour;
+    }
+
+    public:
+    ~ animals()
+    {
+        cout<<"destructor inside the class is running"<<endl;
     }
 };
 
@@ -58,16 +60,17 @@ void animals::setColour(const string& s) {
     colour = s;
 }
 
-int16_t main() {
-    animals *cat1 = new animals(4,omnivore,"white");
-    animals *cat = cat1;
-   delete(cat1);
+int main() {
+    animals *cat = new animals(4,omnivore,"white");
+    // animals cat(3,herbivore,"orange");
+    // animals *cat = cat1;
+//    delete(cat1);
     // animals cat; vs animals cat = new animals();
     // cat.setLegs(4);
     // cat.foodHabit = omnivore;
     // cat.setColour("multi");
 
-    cout << *cat->legs << endl;
+    cout << cat->legs << endl;
 
     switch (cat->foodHabit) {
         case herbivore:
@@ -83,5 +86,5 @@ int16_t main() {
 
     cout << cat->colour << endl;
 
-    return 0;
+    delete(cat);
 }

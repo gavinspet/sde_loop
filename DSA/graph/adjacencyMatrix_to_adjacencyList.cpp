@@ -17,6 +17,8 @@ void makeAdjacencyMatrix(vector<vector<int>> &adjMatrix,vector<vector<int>>&edge
 void solve(vector<vector<int>> &adjMatrix,unordered_map<int, vector<int>> &adjL )
 {
     // code to be written here  
+
+    // adding comment to check the script
 }
 
 void printAdjacencyList(unordered_map<int, vector<int>> &adjL)

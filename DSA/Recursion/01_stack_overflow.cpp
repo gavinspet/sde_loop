@@ -9,35 +9,31 @@ using namespace std;
 
 // when there is no more space in call stack but we are still calling
 // then we call it --> STACK OVERFLOW
-// compiler will throw segmentation fault  
+// compiler will throw segmentation fault
 
 // infinite recursion call
-void funct()
-{
-    cout<<"1"<<endl;
-    funct();
-    
+void funct() {
+  cout << "1" << endl;
+  funct();
 }
 
 int counter = 0;
 
 // recursive function with base case --> BASE CASE
-void funct1()
-{
-    if(counter == 10)
+void funct1() {
+  if (counter == 10)
     return;
 
-    // do work
-    printf("1\n");
+  // do work
+  printf("1\n");
 
-    counter++;
-    funct1();
+  counter++;
+  funct1();
 }
 
-//f(0)-> f(2)-> .....-> f(10) --> RECURSION TREE
+// f(0)-> f(2)-> .....-> f(10) --> RECURSION TREE
 
-int main()
-{
-    // funct();
-    funct1();
+int main() {
+  // funct();
+  funct1();
 }

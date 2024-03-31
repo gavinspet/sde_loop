@@ -41,11 +41,11 @@ int solve(vector<int> nums, vector<int> &output, int index, int target) {
   return (r + l) % MOD;
 }
 
+int main() {
+  vector<int> nums = {3, 3, 6, 8};
+  int target = 10; // ans = 6
 
-int main()
-{
-    vector<int> nums = {3,3,6,8};
-    int target = 10; // ans = 6
-
-    numSubseq(nums,target); // this gives TLE in leetcode since it is brute force approach
+  numSubseq(
+      nums,
+      target); // this gives TLE in leetcode since it is brute force approach
 }

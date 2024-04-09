@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-#include "common.h"
 using namespace std;
 
 
@@ -43,7 +42,7 @@ int main()
     nums.assign({1,2,3,4,5});
     cout<<"code for reversing array :"<<endl;
     cout<<"Input: ";
-    display(nums);
+    // display(nums);
     // function call here
     /////////////////////////
     // reverse_1(nums);
@@ -51,5 +50,5 @@ int main()
     /////////////////////////////
     /////////////////////////////
     cout<<"Output: ";
-    display(nums);
+    // display(nums);
 }

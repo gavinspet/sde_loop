@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-#include"common.h"
 using namespace std;
 
 // method -1 : sort simply Time- O(n*logn)
@@ -27,5 +26,4 @@ int main()
     vector<int> nums;
     nums.assign({3,-4,5,5,-9,0,-1,2,2,-2});
     move_negatives_2(nums);
-    display(nums);
 }

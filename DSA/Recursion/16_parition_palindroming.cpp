@@ -44,7 +44,7 @@ using namespace std;
 
 int main()
 {
-    string s = "aab";
+    string s = "madam";
      vector<vector<string>> ans = partition(s);
 
      for(int i=0;i<ans.size();i++)
@@ -53,6 +53,6 @@ int main()
         {
             cout<<ans[i][j]<<" ";
         }
-        // cout<<endl;
+        cout<<endl;
      }
 }

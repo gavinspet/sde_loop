@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -29,7 +30,6 @@ void next_perm(vector<int>& nums)
         return;
     }
 
-    cout<<"nums[i] = "<<nums[i]<<endl;
 
     for(j= n-1; j >=0 ; j--)
     {
@@ -43,10 +43,24 @@ void next_perm(vector<int>& nums)
     return;
 }
 
+int fact(int n)
+{
+    int res=1;
+    for(int i=1; i<=n ;i++)
+    {
+        res *= i;
+    }
+    return res;
+}
+
 int main()
 {
-    vector<int> nums = {1,2,3,6,5,4};
+    // vector<int> nums = {1,2,3,6,5,4};
+    vector<int> nums = {1,2,3,4,5,6};
     printArray(nums);
-    next_perm(nums);
-    printArray(nums);
+    for(int i=0; i< fact(nums.size());i++)
+    {
+        next_perm(nums);
+        printArray(nums); 
+    }   
 }

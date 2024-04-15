@@ -1,3 +1,5 @@
 1. anagrams of a string
 
-2. 
+2. Inversion of an array - striver 
+
+3. Reverse pairs - 493 leetcode

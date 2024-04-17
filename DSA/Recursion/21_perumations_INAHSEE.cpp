@@ -4,7 +4,8 @@
 
 using namespace std;
 
-
+#define eeshani
+#ifdef eeshani
 void solve(int index, string s)
 {
     if(index ==s.size())
@@ -20,6 +21,7 @@ void solve(int index, string s)
       swap(s[i],s[index]);
     }
 }
+#endif eeshani
 
 int main()
 {

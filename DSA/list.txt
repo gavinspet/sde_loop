@@ -3,3 +3,7 @@
 2. Inversion of an array - striver 
 
 3. Reverse pairs - 493 leetcode
+
+4. longest subarray with sum k - variable sliding window
+
+5.  Longest Substring Without Repeating Characters - variable sliding window

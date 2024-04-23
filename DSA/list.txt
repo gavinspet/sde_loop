@@ -7,3 +7,9 @@
 4. longest subarray with sum k - variable sliding window
 
 5.  Longest Substring Without Repeating Characters - variable sliding window
+
+6. Reverse list in size of k
+
+7. Flattening a linkedlist
+
+8. copy list with random ptr

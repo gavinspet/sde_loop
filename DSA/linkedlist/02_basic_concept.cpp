@@ -21,27 +21,7 @@ using namespace std;
     cout<<endl;
   }
 
-  ListNode* reverse(ListNode* head)
-  {
-    ListNode* curr = NULL;
-    ListNode* temp = NULL;
-
-    ListNode* ref = head;
-
-    int count = 3;
-
-    while(head && count--)
-    {
-        curr = head->next;
-        head->next = temp;
-        temp = head;
-        head = curr;
-    }
-
-    ref->next = curr;
-
-    return temp;
-  }
+ 
 
 int main()
 {
@@ -57,14 +37,16 @@ int main()
 
  ListNode *saga = head;
 
- printLL(head);
+ ListNode* node = temp1;
+ ListNode *temp = temp1->next;
 
- head = reverse(head);
+while(temp)
+{
+    cout<<temp->val<<" ";
+    temp = temp->next;
+}
 
-//  cout<<"saga = "<<saga->val<<endl;
-//  cout<<"head = "<<head->val<<endl;
-
- printLL(head);
+cout<<endl;
 
  return 0;
 }

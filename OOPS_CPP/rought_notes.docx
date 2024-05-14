@@ -1,0 +1,9 @@
+1. if allocated with malloc, calloc then free, 
+if with new then delete (need to see inner implementation)
+
+2. In clas if we name any member as pointer,
+ it should be initialised as nullptr and before accessing should be checked, 
+ else someone might access unallocated pointer, that might lead to undefined behaviour
+
+3. 
+

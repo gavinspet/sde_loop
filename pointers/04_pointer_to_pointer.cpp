@@ -2,17 +2,14 @@
 
 using namespace std;
 
+int main() {
+  int a = 10;
+  int *p = &a;
+  int **q = &p;
+  int ***r = &q;
 
-int main()
-{
-    int a = 10;
-    int *p = &a;
-    int **q = &p;
-    int ***r = &q;
-
-    (*p)++;
-    (**q)++;
-    (***r)++;
-    cout<<a<<endl;
-
+  (*p)++;
+  (**q)++;
+  (***r)++;
+  cout << a << endl;
 }

@@ -1,0 +1,13 @@
+  
+- copy constructor
+- assignment operator
+- operator overloading
+- method overloading
+- move semantics
+- lvalue,rvaluevoid get_name(char* name)
+- templates, typename
+- variadic function
+- constexpr, extern, static, final etc ..
+- initialiser list (delegators)
+- wrapper function
+- functor

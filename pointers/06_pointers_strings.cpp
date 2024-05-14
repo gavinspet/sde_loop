@@ -2,17 +2,13 @@
 
 using namespace std;
 
-int main()
-{
-    char *c = "kartick";
+int main() {
+  char *c = "kartick";
 
-    cout<<sizeof(c)<<endl;
+  cout << sizeof(c) << endl;
 
-    for(int i=0; c[i]!='\0';i++)
-    {
-        cout<<c[i];
-    }
-    cout<<endl;
-
-
+  for (int i = 0; c[i] != '\0'; i++) {
+    cout << c[i];
+  }
+  cout << endl;
 }

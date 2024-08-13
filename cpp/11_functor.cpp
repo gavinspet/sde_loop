@@ -2,23 +2,16 @@
 
 using namespace std;
 
-class A
-{
-    int a;
-    public:
-    void foo()
-    {
-        cout<<"foo ..\n";
-    }
+class A {
+  int a;
 
-    void operator()()
-    {
-        cout<<"functor hoon mai ..\n";
-    }
+public:
+  void foo() { cout << "foo ..\n"; }
+
+  void operator()() { cout << "functor hoon mai ..\n"; }
 };
 
-int main()
-{
-    A a;
-    a();
+int main() {
+  A a;
+  a();
 }

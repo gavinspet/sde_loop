@@ -2,15 +2,11 @@
 
 using namespace std;
 
-struct Base
-{
-    char a;
-    char b;
-    int i;
-    char c;
+struct Base {
+  char a;
+  char b;
+  int i;
+  char c;
 };
 
-int main()
-{
-
-}
+int main() {}

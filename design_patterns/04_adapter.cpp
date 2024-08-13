@@ -1,0 +1,3 @@
+/*
+adapter is like factory but make it get dimension and area
+*/

@@ -1,0 +1,152 @@
+> Easy-Level Array Problems
+
+1. Odd-Even Numbers:
+Separate odd and even numbers in an array.
+
+2. Check prime number
+
+3. Find the Largest and Smallest Element:
+Find the maximum and minimum elements in an array.
+
+4. Reverse an Array:
+Reverse the elements of an array.
+
+5. Remove Duplicates from Sorted Array:
+Remove duplicates from a sorted array.
+
+6. Remove Element:
+Remove all instances of a specific value from an array in-place.
+
+7. Rotate an Array:
+Rotate an array by k positions to the left/right.
+
+8. Move Zeros to the End:
+Move all zeros in an array to the end while maintaining the relative order of the non-zero elements.
+
+
+9. Find the Missing Number:
+Find the missing number in a sequence (e.g., a sequence from 1 to n).
+
+10. Sort an Array:
+Sort an array of 0s, 1s, and 2s (Dutch National Flag problem).
+
+11. Intersection of Two Arrays:
+Find the intersection of two arrays.
+
+12. Find the Single Number:
+Find the element that appears only once in an array where every other element appears twice.
+
+13. Plus One:
+Given a non-empty array of digits representing a non-negative integer, add one to the integer.
+
+Valid Mountain Array:
+Determine if an array is a valid mountain array.
+Max Consecutive Ones:
+Find the maximum number of consecutive 1's in an array.
+Majority Element:
+Find the majority element in an array (appears more than n/2 times).
+Third Maximum Number:
+Find the third maximum number in an array.
+Find All Numbers Disappeared in an Array:
+Find all the numbers that are missing from an array containing numbers from 1 to n.
+Find GCD (Greatest Common Divisor):
+Find the GCD of two numbers or an array of numbers.
+Find LCM (Least Common Multiple):
+Find the LCM of two numbers or an array of numbers.
+
+> Medium-Level Array Problems
+Two Sum:
+Find two numbers in an array that add up to a given target.
+3Sum:
+Find all unique triplets in the array which gives the sum of zero.
+4Sum:
+Find all unique quadruplets in the array which gives the sum of a target.
+Maximum Subarray (Kadane's Algorithm):
+Find the contiguous subarray with the largest sum.
+Subarray Sum Equals K:
+Find the total number of continuous subarrays whose sum equals to k.
+Longest Consecutive Sequence:
+Find the length of the longest consecutive sequence in an unsorted array.
+Container with Most Water:
+Given n non-negative integers, find two lines that together with the x-axis form a container that contains the most water.
+Best Time to Buy and Sell Stock:
+Find the maximum profit you can achieve from buying and selling stock.
+Best Time to Buy and Sell Stock II:
+Find the maximum profit from multiple buy and sell operations.
+Product of Array Except Self:
+Find an array where each element is the product of all other elements except itself.
+Merge Intervals:
+Merge overlapping intervals in an array.
+Find the Duplicate Number:
+Given an array of n+1 integers, where each integer is between 1 and n (inclusive), find the duplicate number.
+Set Matrix Zeroes:
+Given an m x n matrix, if an element is 0, set its entire row and column to 0.
+Search in Rotated Sorted Array:
+Search for a target value in a rotated sorted array.
+Next Permutation:
+Implement next permutation, which rearranges numbers into the lexicographically next greater permutation.
+Jump Game:
+Given an array of non-negative integers, determine if you can reach the last index.
+Spiral Matrix:
+Given a matrix, return all elements of the matrix in spiral order.
+Spiral Matrix II:
+Generate a square matrix filled with elements from 1 to n in spiral order.
+Pascal's Triangle:
+Generate Pascal's Triangle up to a given number of rows.
+Rotate Image:
+Rotate an n x n matrix by 90 degrees (clockwise).
+Kth Largest Element in an Array:
+Find the kth largest element in an unsorted array.
+Minimum Size Subarray Sum:
+Find the minimal length of a contiguous subarray with a sum greater than or equal to a given value.
+Find the Longest Substring Without Repeating Characters:
+Find the length of the longest substring without repeating characters.
+Binary Subarrays With Sum:
+Given a binary array and a target sum, find the number of non-empty subarrays with a sum equal to the target.
+Wiggle Sort II:
+Rearrange an array into a "wiggle" pattern, where nums[0] < nums[1] > nums[2] < nums[3] ...
+Find HCF (Highest Common Factor):
+Find the HCF of two numbers or an array of numbers.
+Hard-Level Array Problems
+Maximum Sum of 3 Non-Overlapping Subarrays:
+Find three non-overlapping subarrays with the maximum sum.
+Sliding Window Maximum:
+Find the maximum in each sliding window of size k in an array.
+Median of Two Sorted Arrays:
+Find the median of two sorted arrays of different sizes.
+First Missing Positive:
+Find the smallest missing positive integer from an unsorted array.
+Longest Substring with At Most K Distinct Characters:
+Given a string, find the longest substring that contains at most k distinct characters.
+Largest Rectangle in Histogram:
+Given an array of heights representing a histogram, find the area of the largest rectangle.
+Count Smaller Numbers After Self:
+Given an array of integers, return a new array where each element represents the count of smaller numbers to the right.
+Maximal Rectangle:
+Given a 2D binary matrix, find the largest rectangle containing only 1's and return its area.
+Split Array Largest Sum:
+Split an array into m subarrays, minimizing the largest sum among them.
+Maximum Gap:
+Given an unsorted array, find the maximum difference between successive elements in its sorted form.
+Burst Balloons:
+Burst all balloons in a way that maximizes the coins you can collect.
+Longest Valid Parentheses:
+Find the length of the longest valid (well-formed) parentheses substring.
+Shortest Subarray with Sum at Least K:
+Find the length of the shortest, non-empty, contiguous subarray with a sum of at least k.
+Palindrome Partitioning II:
+Partition a string into the fewest cuts such that every substring is a palindrome.
+N-Queens:
+Solve the n-queens puzzle, returning all possible arrangements of queens on an n x n chessboard.
+Candy Distribution:
+Distribute candy to children according to certain rules to minimize the amount of candy used.
+Trapping Rain Water:
+Calculate how much water can be trapped between the heights of bars after rainfall.
+Wildcard Matching:
+Implement wildcard pattern matching with support for '?' and '*'.
+Edit Distance:
+Calculate the minimum number of operations required to convert one string into another.
+Russian Doll Envelopes:
+Find the maximum number of envelopes that can be nested inside each other (like Russian dolls).
+Calculate GCD of an Array:
+Find the GCD of all numbers in an array (extended version of the simple GCD problem).

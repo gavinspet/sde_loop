@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>C++ Compilation and g++ Commands</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        code {
+            background-color: #f0f0f0;
+            font-family: "Courier New", Courier, monospace;
+            padding: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Compiling and Creating Executables:</h2>
+    <ol>
+        <li><strong>Basic Compilation:</strong></li>
+        <code>g++ source.cpp -o output</code>
+
+        <li><strong>Compile Multiple Source Files into a Single Executable:</strong></li>
+        <code>g++ source1.cpp source2.cpp -o output</code>
+
+        <li><strong>Compile with Optimization and Debugging Symbols:</strong></li>
+        <code>g++ -O2 -g source.cpp -o output</code>
+
+        <li><strong>Specify Include Directories:</strong></li>
+        <code>g++ -I/path/to/includes source.cpp -o output</code>
+    </ol>
+
+    <h2>Creating Libraries:</h2>
+    <ol>
+        <li><strong>Creating a Static Library (.a):</strong></li>
+        <code>g++ -c library.cpp -o library.o<br>ar rcs libmylib.a library.o</code>
+
+        <li><strong>Creating a Shared Library (.so):</strong></li>
+        <code>g++ -shared -fPIC library.cpp -o libmylib.so</code>
+    </ol>
+
+    <h2>Linking Headers and Libraries:</h2>
+    <ol>
+        <li><strong>Linking Header Files:</strong><br>
+            - Header files are typically included in your source code using <code>#include</code>.<br>
+            - Ensure that the header files are in directories specified with <code>-I</code>.
+        </li>
+
+        <li><strong>Linking Static Libraries:</strong></li>
+        <code>g++ source.cpp -o output -L/path/to/libraries -lmylib</code>
+
+        <li><strong>Linking Shared Libraries:</strong></li>
+        <code>g++ source.cpp -o output -L/path/to/libraries -lmylib</code>
+    </ol>
+
+    <h2>Other Useful Flags:</h2>
+    <ol>
+        <li><strong>Compiler Warning Flags:</strong></li>
+        <code>g++ -Wall -Wextra source.cpp -o output</code>
+
+        <li><strong>Specify C++ Standard:</strong></li>
+        <code>g++ -std=c++11 source.cpp -o output</code>
+
+        <li><strong>Preprocessor Definitions:</strong></li>
+        <code>g++ -DDEBUG=1 source.cpp -o output</code>
+    </ol>
+</body>
+
+</html>

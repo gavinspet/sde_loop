@@ -1,0 +1,24 @@
+1. Single inheritance - ek baap, ek beta
+
+2. Multiple inheritance - do baap, ek beta (aise toh more than do bhi can do)
+
+3. Multilevel inheritance - grandpa --> baap --> beta
+
+4. Hierarchal inheritance -  baap --> beta1
+                                  --> beta2
+                                  --> beti1
+                                  --> beti2
+                                  --> beti3
+                                  --> step-beta
+                                  --> step-beti1
+
+ 5. Hybrid inheritance - two or more types of inheritance together
+
+ 6. virtual inheritance - i. Virtual inheritance is used to address ambiguity issues
+                             that may arise in multiple inheritance scenarios.
+
+                          ii. When a base class is virtually inherited, 
+                          it ensures that only a single instance of that base 
+                          class exists in the hierarchy, reducing ambiguity.
+
+                          iii. Used to solve diamond problem

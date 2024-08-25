@@ -4,14 +4,13 @@
 
 ## Repository Structure
 
-### 1. **CPP**
+### 1. **dsa**
 
-### 2. **Design Patterns**
+### 2. **cpp**
 
-### 3. **DSA (Data Structures and Algorithms)**
+### 3. **multithreading**
 
-### 4. **OOPS_CPP**
+### 4. **networking**
 
-### 5. **Pointers**
+### 5. **shell scripting**
 
-### 6. **STL**

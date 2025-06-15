@@ -1,0 +1,13 @@
+1. Directed graph - Undirected graph
+2. Nodes or vertex: they are represented by numbers
+3. Edge - (directed edge - Undirected edge) directed (u -> v and v ->u) 
+4. cycles in a graph - start from a node and end at that node
+5. cyclic graph - acyclic graph
+6. Path - contain lot of vertices and nodes and each of them are reachable
+7. A node can not appear twice in a Path
+8. Degrees in a graph - number of edges going inside a node
+9. For Undirected graph - degree = no. of edges attached to it
+10. Total degree of a graph = 2*edges
+11. InDegree-OutDegree 
+12. Weight to an edge
+13. if Weight not assigned then weight = 1 unit

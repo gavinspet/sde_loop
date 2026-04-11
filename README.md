@@ -1,16 +1,11 @@
-# sde_loop
+The entire tracker Link->
+https://docs.google.com/spreadsheets/d/19iH7-2yoz5rxBWlGvj-BhMx0QsRTl5U1sS9MpRTQl3E/edit?gid=544132596#gid=544132596
 
-## Overview
 
-## Repository Structure
+Leetcode Link -> https://leetcode.com/u/gavinspet/
 
-### 1. **dsa**
+Linkedin Link -> https://www.linkedin.com/in/kartick-kumar-ghosh/
 
-### 2. **cpp**
 
-### 3. **multithreading**
 
-### 4. **networking**
-
-### 5. **shell scripting**
 

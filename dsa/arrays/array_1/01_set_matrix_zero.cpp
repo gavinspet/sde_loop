@@ -13,30 +13,30 @@ void printMatrix(vector<vector<int>> nums) {
   }
 }
 
- void setZeroes(vector<vector<int>>& matrix) {
-        vector<int> rows(matrix.size(), 1);    // representing j's
-        vector<int> cols(matrix[0].size(), 1); // representing i's
+void setZeroes(vector<vector<int>> &matrix) {
+  vector<int> rows(matrix.size(), 1);    // representing j's
+  vector<int> cols(matrix[0].size(), 1); // representing i's
 
-        for (int i = 0; i < matrix.size(); i++) // rows
-        {
-            for (int j = 0; j < matrix[i].size(); j++) // cols
-            {
-                if (matrix[i][j] == 0) {
-                    rows[i] = 0;
-                    cols[j] = 0;
-                }
-            }
-        }
+  for (int i = 0; i < matrix.size(); i++) // rows
+  {
+    for (int j = 0; j < matrix[i].size(); j++) // cols
+    {
+      if (matrix[i][j] == 0) {
+        rows[i] = 0;
+        cols[j] = 0;
+      }
+    }
+  }
 
-        for (int i = 0; i < matrix.size(); i++) // rows
-        {
-            for (int j = 0; j < matrix[i].size(); j++) // cols
-            {
-                if (rows[i] == 0 || cols[j] == 0) {
-                    matrix[i][j] = 0;
-                }
-            }
-        }
+  for (int i = 0; i < matrix.size(); i++) // rows
+  {
+    for (int j = 0; j < matrix[i].size(); j++) // cols
+    {
+      if (rows[i] == 0 || cols[j] == 0) {
+        matrix[i][j] = 0;
+      }
+    }
+  }
 }
 
 int main() {

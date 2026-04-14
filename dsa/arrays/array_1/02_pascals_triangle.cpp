@@ -1,0 +1,1 @@
+// mainly focus on nCr and maths
